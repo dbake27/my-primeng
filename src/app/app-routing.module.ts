@@ -4,12 +4,13 @@ import {MainmenuComponent} from "./mainmenu/mainmenu.component";
 import { MenubarComponent } from './menubar/menubar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component';
+import { FlexgridComponent } from './flexgrid/flexgrid.component';
 
 const routes: Routes = [
   { path: "menubar", component: MenubarComponent },
   { path: "projects", component: ProjectsComponent},
   { path: "inputtextdemo", component: InputTextDemoComponent},
-  
+  { path: "flexgrid", component: FlexgridComponent },
 
 ];
 

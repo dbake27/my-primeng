@@ -1,0 +1,22 @@
+<h3 class="first">Basic</h3>
+<div class="p-grid">
+    <div class="p-col">
+        <div class="box">1</div>
+    </div>
+    <div class="p-col">
+        <div class="box">2</div>
+    </div>
+    <div class="p-col">
+        <div class="box">3</div>
+    </div>
+</div>
+
+<h3>Dynamic</h3>
+<button pButton type="button" icon="pi pi-plus" title="Add Column" (click)="addColumn()" [disabled]="columns.length === 20" style="margin-right: .5em"></button>
+<button pButton type="button" icon="pi pi-minus" title="Remove Column" (click)="removeColumn()"[disabled]="columns.length === 1"></button>
+
+<div class="p-grid" style="margin-top: .5em">
+    <div class="p-col" *ngFor="let col of columns; let i=index" [@animation]="'visible'">
+        <div class="box">{{i + 1}}</div>
+    </div>
+</div>

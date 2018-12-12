@@ -17,7 +17,8 @@ import { MenuModule, PanelModule, ChartModule, InputTextModule, ButtonModule, In
 import { MenubarComponent } from './menubar/menubar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FielderrorsComponent } from './fielderrors/fielderrors.component';
-import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component'
+import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component';
+import { FlexgridComponent } from './flexgrid/flexgrid.component'
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { InputTextDemoComponent } from './input-text-demo/input-text-demo.compon
     MenubarComponent,
     ProjectsComponent,
     FielderrorsComponent,
-    InputTextDemoComponent
+    InputTextDemoComponent,
+    FlexgridComponent
   
   ],
   imports: [
