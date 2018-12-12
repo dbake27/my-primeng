@@ -3,14 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainmenuComponent } from './mainmenu/mainmenu.component';
+
+//primeng imports
+import { MenuModule } from 'primeng/menu';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations"
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainmenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MenuModule,
+    BrowserAnimationsModule
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
