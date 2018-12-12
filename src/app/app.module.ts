@@ -6,26 +6,68 @@ import { AppComponent } from './app.component';
 import { MainmenuComponent } from './mainmenu/mainmenu.component';
 
 //primeng imports
-import { MenuModule } from 'primeng/menu';
+
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MenubarModule} from 'primeng/menubar';
-//
-import { MenubarComponent } from './menubar/menubar.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MenuModule, PanelModule, ChartModule, InputTextModule, ButtonModule, InputMaskModule, InputTextareaModule, EditorModule, CalendarModule, RadioButtonModule, FieldsetModule, DropdownModule, MultiSelectModule, ListboxModule, SpinnerModule, SliderModule, RatingModule, DataTableModule, ContextMenuModule, TabViewModule, DialogModule, StepsModule, ScheduleModule, TreeModule, GMapModule, DataGridModule, TooltipModule, ConfirmationService, ConfirmDialogModule, GrowlModule, DragDropModule, GalleriaModule } from 'primeng/primeng';
+  
+
+// app compts
+import { MenubarComponent } from './menubar/menubar.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { FielderrorsComponent } from './fielderrors/fielderrors.component';
+import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MainmenuComponent,
-    MenubarComponent
+    MenubarComponent,
+    ProjectsComponent,
+    FielderrorsComponent,
+    InputTextDemoComponent
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     MenuModule,
     BrowserAnimationsModule,
-    MenubarModule
-    
-
+    MenubarModule,
+    FormsModule,
+    PanelModule,
+    ChartModule,
+    InputTextModule,
+    ButtonModule,
+    InputMaskModule,
+    InputTextareaModule,
+    EditorModule,
+    CalendarModule,
+    RadioButtonModule,
+    FieldsetModule,
+    DropdownModule,
+    MultiSelectModule,
+    ListboxModule,
+    SpinnerModule,
+    SliderModule,
+    RatingModule,
+    DataTableModule,
+    ContextMenuModule,
+    TabViewModule,
+    DialogModule,
+    StepsModule,
+    ScheduleModule,
+    TreeModule,
+    GMapModule,
+    DataGridModule,
+    TooltipModule,
+    ConfirmDialogModule,
+    GrowlModule,
+    DragDropModule,
+    GalleriaModule
     
   ],
   providers: [],
