@@ -15,15 +15,18 @@ export class MainmenuComponent implements OnInit {
     this.items = [{
         label: 'File',
         items: [
-            {label: 'New', icon: 'pi pi-cloud'},
+            {label: 'New', icon: 'pi pi-cloud', command: (event) =>{
+               //event.originalEvent: Browser event
+               //event.item: menuitem metadata
+            }},
             {label: 'Open', icon: 'pi pi-pencil'}
         ]
     },
     {
         label: 'Edit',
         items: [
-            {label: 'Undo', icon: 'fa fa-refresh'},
-            {label: 'Redo', icon: 'fa fa-repeat'}
+            {label: 'Undo', icon: 'pi pi-home'},
+            {label: 'Redo', icon: 'pi pi-info'}
         ]
     }];
 }

@@ -7,18 +7,24 @@ import { MainmenuComponent } from './mainmenu/mainmenu.component';
 
 //primeng imports
 import { MenuModule } from 'primeng/menu';
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations"
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {MenubarModule} from 'primeng/menubar';
+//
+import { MenubarComponent } from './menubar/menubar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainmenuComponent
+    MainmenuComponent,
+    MenubarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MenuModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MenubarModule
+    
 
     
   ],
