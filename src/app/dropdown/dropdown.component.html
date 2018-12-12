@@ -1,0 +1,21 @@
+<h3 class="first">Single</h3>
+<p-dropdown [options]="cities" [(ngModel)]="selectedCity" placeholder="Select a City" optionLabel="name" [showClear]="true"></p-dropdown>
+<p>Selected City: {{selectedCity ? selectedCity.name : 'none'}}</p>
+
+<h3>Editable</h3>
+<p-dropdown [options]="cars" [(ngModel)]="selectedCar1" [style]="{'width':'150px'}" editable="true" placeholder="Select a Brand"></p-dropdown>
+<p>Selected Car: {{selectedCar1 || 'none'}}</p>
+
+<h3>Content with Filters</h3>
+<p-dropdown [options]="cars" [(ngModel)]="selectedCar2" [style]="{'width':'150px'}" filter="true">
+    <ng-template let-item pTemplate="selectedItem">
+       <span style="vertical-align:middle; margin-left: .5em">{{item.label}}</span>
+    </ng-template>
+    <ng-template let-car pTemplate="item">
+        <div class="ui-helper-clearfix" style="position: relative;height: 25px;">
+            <div style="font-size:14px;float:right;margin-top:4px">{{car.label}}</div>
+        </div>
+    </ng-template>
+</p-dropdown>
+<p>Selected Car: {{selectedCar2||'none'}}</p>
+
