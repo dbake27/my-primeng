@@ -6,6 +6,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component';
 import { FlexgridComponent } from './flexgrid/flexgrid.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
+import { InputgroupComponent } from './inputgroup/inputgroup.component';
 
 const routes: Routes = [
   { path: "menubar", component: MenubarComponent },
@@ -13,8 +14,9 @@ const routes: Routes = [
   { path: "inputtextdemo", component: InputTextDemoComponent},
   { path: "flexgrid", component: FlexgridComponent },
   { path: "dropdown", component: DropdownComponent },
+  { path: "inputgroup", component: InputgroupComponent },
 
- 
+  
 ];
 
 @NgModule({

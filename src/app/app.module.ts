@@ -19,7 +19,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { FielderrorsComponent } from './fielderrors/fielderrors.component';
 import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component';
 import { FlexgridComponent } from './flexgrid/flexgrid.component';
-import { DropdownComponent } from './dropdown/dropdown.component'
+import { DropdownComponent } from './dropdown/dropdown.component';
+import { InputgroupComponent } from './inputgroup/inputgroup.component'
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { DropdownComponent } from './dropdown/dropdown.component'
     FielderrorsComponent,
     InputTextDemoComponent,
     FlexgridComponent,
-    DropdownComponent
+    DropdownComponent,
+    InputgroupComponent
   
   ],
   imports: [

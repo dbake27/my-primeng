@@ -3,10 +3,14 @@ import { SelectItemGroup, SelectItem } from 'primeng/api';
 
 
 interface City {
-  name: string,
-  code: string
+  label: string,
+  value: string
 }
 
+interface Cars {
+  label: string,
+  value: string
+}
 
 @Component({
   selector: 'app-dropdown',
@@ -14,27 +18,21 @@ interface City {
   styleUrls: ['./dropdown.component.css']
 })
 export class DropdownComponent implements OnInit {
-  cities: City[];
+  cities: SelectItem[];
 
   selectedCity: City;
 
   cars: SelectItem[];
 
-  selectedCar1: string;
-
   selectedCar2: string = 'BMW';
   
-  selectedCar3: string;
-
-  groupedCars: SelectItemGroup[];
-
-  constructor() {
+    constructor() {
     this.cities = [
-        {name: 'New York', code: 'NY'},
-        {name: 'Rome', code: 'RM'},
-        {name: 'London', code: 'LDN'},
-        {name: 'Istanbul', code: 'IST'},
-        {name: 'Paris', code: 'PRS'}
+        {label: 'New York', value: 'NY'},
+        {label: 'Rome', value: 'RM'},
+        {label: 'London', value: 'LDN'},
+        {label: 'Istanbul', value: 'IST'},
+        {label: 'Paris', value: 'PRS'}
     ];
 
     this.cars = [
