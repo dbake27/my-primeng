@@ -22,12 +22,12 @@ export class MenubarComponent implements OnInit {
                       icon: 'pi pi-fw pi-plus',
                       items: [
                         {label: 'Dropdown',  routerLink: ['/dropdown']},
-                          {label: 'Project'},
-                          {label: 'Other'},
+                        {label: 'PrimeNG',  url: 'http://www.primefaces.org/primeng'},
+                        {label: 'Flexgrid',  routerLink: ['/flexgrid']},
                       ]
                   },
-                  {label: 'Open'},
-                  {label: 'Quit'}
+                  {label: 'Flexgrid',  routerLink: ['/flexgrid']},
+                  {label: 'InputGroup',  routerLink: ['/inputgroup']},
               ]
           },
           {
