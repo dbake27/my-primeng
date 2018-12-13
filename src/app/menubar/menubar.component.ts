@@ -23,10 +23,12 @@ export class MenubarComponent implements OnInit {
                       items: [
                         {label: 'Dropdown',  routerLink: ['/dropdown']},
                         {label: 'PrimeNG',  url: 'http://www.primefaces.org/primeng'},
+                        {label: 'PrimeDesigner',  url: 'https://www.primefaces.org/designer-ng/#/'}, 
+                        
                         {label: 'Flexgrid',  routerLink: ['/flexgrid']},
                       ]
                   },
-                  {label: 'Flexgrid',  routerLink: ['/flexgrid']},
+                  {label: 'Projects',  routerLink: ['/projects']},
                   {label: 'InputGroup',  routerLink: ['/inputgroup']},
               ]
           },

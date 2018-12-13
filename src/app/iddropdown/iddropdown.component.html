@@ -1,0 +1,11 @@
+<p-dropdown [options]="IDs" [(ngModel)]="selectedID" [style]="{'width':'150px'}" filter="true">
+  <ng-template let-item pTemplate="selectedID">
+     <span style="vertical-align:middle; margin-left: .5em">{{item.label}}</span>
+  </ng-template>
+  <ng-template let-ID pTemplate="item">
+      <div class="ui-helper-clearfix" style="position: relative;height: 25px;">
+          <div style="font-size:14px;float:right;margin-top:4px">{{ID.label}}</div>
+      </div>
+  </ng-template>
+</p-dropdown>
+<p>Selected ID: {{selectedID||'none'}}</p>

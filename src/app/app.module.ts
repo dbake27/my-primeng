@@ -1,3 +1,4 @@
+//app.module.ts
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -11,7 +12,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MenubarModule} from 'primeng/menubar';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuModule, PanelModule, ChartModule, InputTextModule, ButtonModule, InputMaskModule, InputTextareaModule, EditorModule, CalendarModule, RadioButtonModule, FieldsetModule, DropdownModule, MultiSelectModule, ListboxModule, SpinnerModule, SliderModule, RatingModule, DataTableModule, ContextMenuModule, TabViewModule, DialogModule, StepsModule, ScheduleModule, TreeModule, GMapModule, DataGridModule, TooltipModule, ConfirmationService, ConfirmDialogModule, GrowlModule, DragDropModule, GalleriaModule } from 'primeng/primeng';
-  
+import {TabMenuModule} from 'primeng/tabmenu';  
 
 // app compts
 import { MenubarComponent } from './menubar/menubar.component';
@@ -21,7 +22,10 @@ import { InputTextDemoComponent } from './input-text-demo/input-text-demo.compon
 import { FlexgridComponent } from './flexgrid/flexgrid.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { InputgroupComponent } from './inputgroup/inputgroup.component';
-import { MastersearchComponent } from './mastersearch/mastersearch.component'
+import { MastersearchComponent } from './mastersearch/mastersearch.component';
+import { TabmenuComponent } from './tabmenu/tabmenu.component';
+import { IddropdownComponent } from './iddropdown/iddropdown.component';
+import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.component'
 
 
 @NgModule({
@@ -35,7 +39,10 @@ import { MastersearchComponent } from './mastersearch/mastersearch.component'
     FlexgridComponent,
     DropdownComponent,
     InputgroupComponent,
-    MastersearchComponent
+    MastersearchComponent,
+    TabmenuComponent,
+    IddropdownComponent,
+    GroupiddropdownComponent
   
   ],
   imports: [
@@ -75,7 +82,8 @@ import { MastersearchComponent } from './mastersearch/mastersearch.component'
     ConfirmDialogModule,
     GrowlModule,
     DragDropModule,
-    GalleriaModule
+    GalleriaModule,
+    TabMenuModule
     
   ],
   providers: [],

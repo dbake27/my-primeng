@@ -12,15 +12,5 @@ export class MainmenuComponent implements OnInit {
   constructor() { }
   
   ngOnInit() {
-    this.items = [{
-        label: 'File',
-        items: [
-            {label: 'New', icon: 'fa fa-plus', url: 'http://www.primefaces.org/primeng'},
-            {label: 'Dropdown', icon: 'fa fa-download', routerLink: ['/dropdown']},
-            {label: 'Recent Files', icon: 'fa fa-download', routerLink: ['/pagename'], queryParams: {'recent': 'true'}}
-        ]
     }
-}
-  
-
 }
