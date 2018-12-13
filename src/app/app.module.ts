@@ -20,7 +20,8 @@ import { FielderrorsComponent } from './fielderrors/fielderrors.component';
 import { InputTextDemoComponent } from './input-text-demo/input-text-demo.component';
 import { FlexgridComponent } from './flexgrid/flexgrid.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
-import { InputgroupComponent } from './inputgroup/inputgroup.component'
+import { InputgroupComponent } from './inputgroup/inputgroup.component';
+import { MastersearchComponent } from './mastersearch/mastersearch.component'
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { InputgroupComponent } from './inputgroup/inputgroup.component'
     InputTextDemoComponent,
     FlexgridComponent,
     DropdownComponent,
-    InputgroupComponent
+    InputgroupComponent,
+    MastersearchComponent
   
   ],
   imports: [

@@ -15,20 +15,11 @@ export class MainmenuComponent implements OnInit {
     this.items = [{
         label: 'File',
         items: [
-            {label: 'New', icon: 'pi pi-cloud', command: (event) =>{
-               //event.originalEvent: Browser event
-               //event.item: menuitem metadata
-            }},
-            {label: 'Open', icon: 'pi pi-pencil'}
+            {label: 'New', icon: 'fa fa-plus', url: 'http://www.primefaces.org/primeng'},
+            {label: 'Dropdown', icon: 'fa fa-download', routerLink: ['/dropdown']},
+            {label: 'Recent Files', icon: 'fa fa-download', routerLink: ['/pagename'], queryParams: {'recent': 'true'}}
         ]
-    },
-    {
-        label: 'Edit',
-        items: [
-            {label: 'Undo', icon: 'pi pi-home'},
-            {label: 'Redo', icon: 'pi pi-info'}
-        ]
-    }];
+    }
 }
   
 

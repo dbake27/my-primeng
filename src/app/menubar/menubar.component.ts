@@ -21,6 +21,7 @@ export class MenubarComponent implements OnInit {
                       label: 'New', 
                       icon: 'pi pi-fw pi-plus',
                       items: [
+                        {label: 'Dropdown',  routerLink: ['/dropdown']},
                           {label: 'Project'},
                           {label: 'Other'},
                       ]
