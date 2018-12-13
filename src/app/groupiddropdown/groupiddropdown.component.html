@@ -1,3 +1,11 @@
-<p>
-  groupiddropdown works!
-</p>
+<h4>GroupID:</h4>
+<p-dropdown  [options]="GROUPIDs" [(ngModel)]="selectedGroupID" [style]="{'width':'100px'}" filter="true">
+  <ng-template let-item pTemplate="selectedGroupID">
+     <span style="vertical-align:middle; margin-left: .5em">{{item.label}}</span>
+  </ng-template>
+  <ng-template let-GROUPID pTemplate="item">
+      <div class="ui-helper-clearfix" style="position: relative;height: 25px;">
+          <div style="font-size:14px;float:right;margin-top:4px">{{GROUPID.label}}</div>
+      </div>
+  </ng-template>
+   </p-dropdown>

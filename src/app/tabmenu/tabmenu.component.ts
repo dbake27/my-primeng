@@ -15,7 +15,7 @@ export class TabmenuComponent implements OnInit {
     this.items = [
         {label: 'Projects',  routerLink: ['/projects']},
         {label: 'InputGroup',  routerLink: ['/inputgroup']},
-        {label: 'IDropdown',  routerLink: ['/idropdown']},
+        {label: 'GroupIDropdown',  routerLink: ['/groupidropdown']},
         {label: 'MasterSearch',  routerLink: ['/mastersearch']},
         {label: 'PrimeNG',  url: 'http://www.primefaces.org/primeng'},
         {label: 'PrimeDesigner',  url: 'https://www.primefaces.org/designer-ng/#/'}, 

@@ -10,6 +10,7 @@ import { InputgroupComponent } from './inputgroup/inputgroup.component';
 import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { MastersearchComponent } from './mastersearch/mastersearch.component';
 import { IddropdownComponent } from './iddropdown/iddropdown.component';
+import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,7 @@ const routes: Routes = [
   { path: "tabmenu", component: TabmenuComponent },
   { path: "mastersearch", component: MastersearchComponent },
   { path: "idropdown", component: IddropdownComponent },
-
+  { path: "groupidropdown", component: GroupiddropdownComponent},
   
 ];
 
