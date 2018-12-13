@@ -11,6 +11,9 @@ import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { MastersearchComponent } from './mastersearch/mastersearch.component';
 import { IddropdownComponent } from './iddropdown/iddropdown.component';
 import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.component';
+import { VendordropdownComponent } from './vendordropdown/vendordropdown.component';
+import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.component';
+import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
 
 
 const routes: Routes = [
@@ -24,6 +27,10 @@ const routes: Routes = [
   { path: "mastersearch", component: MastersearchComponent },
   { path: "idropdown", component: IddropdownComponent },
   { path: "groupidropdown", component: GroupiddropdownComponent},
+  { path: "vendordropdown", component: VendordropdownComponent},
+  { path: "invoicedropdown", component: InvoicedropdownComponent},
+  { path: "voucherdropdown", component: VoucherdropdownComponent},
+   
   
 ];
 

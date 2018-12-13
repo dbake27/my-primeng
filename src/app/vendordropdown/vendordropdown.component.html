@@ -1,0 +1,11 @@
+<h4>Vendor:</h4>
+<p-dropdown  [options]=" VENDORs" [(ngModel)]="selectedVENDOR" [style]="{'width':'100px'}" filter="true">
+  <ng-template let-item pTemplate="selectedVENDOR">
+     <span style="vertical-align:middle; margin-left: .5em">{{item.label}}</span>
+  </ng-template>
+  <ng-template let-VENDOR pTemplate="item">
+      <div class="ui-helper-clearfix" style="position: relative;height: 25px;">
+          <div style="font-size:14px;float:right;margin-top:4px">{{VENDOR.label}}</div>
+      </div>
+  </ng-template>
+   </p-dropdown>

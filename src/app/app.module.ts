@@ -25,7 +25,10 @@ import { InputgroupComponent } from './inputgroup/inputgroup.component';
 import { MastersearchComponent } from './mastersearch/mastersearch.component';
 import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { IddropdownComponent } from './iddropdown/iddropdown.component';
-import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.component'
+import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.component';
+import { VendordropdownComponent } from './vendordropdown/vendordropdown.component';
+import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.component';
+import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component'
 
 
 @NgModule({
@@ -42,7 +45,10 @@ import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.comp
     MastersearchComponent,
     TabmenuComponent,
     IddropdownComponent,
-    GroupiddropdownComponent
+    GroupiddropdownComponent,
+    VendordropdownComponent,
+    InvoicedropdownComponent,
+    VoucherdropdownComponent
   
   ],
   imports: [
