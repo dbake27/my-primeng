@@ -14,6 +14,7 @@ import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.comp
 import { VendordropdownComponent } from './vendordropdown/vendordropdown.component';
 import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.component';
 import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
+import { PodropdownComponent } from './podropdown/podropdown.component';
 
 
 const routes: Routes = [
@@ -30,7 +31,8 @@ const routes: Routes = [
   { path: "vendordropdown", component: VendordropdownComponent},
   { path: "invoicedropdown", component: InvoicedropdownComponent},
   { path: "voucherdropdown", component: VoucherdropdownComponent},
-   
+  { path: "podropdown", component: PodropdownComponent},
+  
   
 ];
 

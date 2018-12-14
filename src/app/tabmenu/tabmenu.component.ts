@@ -19,6 +19,7 @@ export class TabmenuComponent implements OnInit {
         {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
         {label: 'InvoiceDropdown',  routerLink: ['/invoicedropdown']},
         {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
+        {label: 'PODropdown',  routerLink: ['/podropdown']},
         {label: 'MasterSearch',  routerLink: ['/mastersearch']},
         {label: 'PrimeNG',  url: 'http://www.primefaces.org/primeng'},
         {label: 'PrimeDesigner',  url: 'https://www.primefaces.org/designer-ng/#/'}, 
