@@ -29,7 +29,8 @@ import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.comp
 import { VendordropdownComponent } from './vendordropdown/vendordropdown.component';
 import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.component';
 import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
-import { PodropdownComponent } from './podropdown/podropdown.component'
+import { PodropdownComponent } from './podropdown/podropdown.component';
+import { NctmasterformComponent } from './nctmasterform/nctmasterform.component'
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { PodropdownComponent } from './podropdown/podropdown.component'
     VendordropdownComponent,
     InvoicedropdownComponent,
     VoucherdropdownComponent,
-    PodropdownComponent
+    PodropdownComponent,
+    NctmasterformComponent
   
   ],
   imports: [
