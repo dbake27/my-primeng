@@ -28,7 +28,8 @@ import { IddropdownComponent } from './iddropdown/iddropdown.component';
 import { GroupiddropdownComponent } from './groupiddropdown/groupiddropdown.component';
 import { VendordropdownComponent } from './vendordropdown/vendordropdown.component';
 import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.component';
-import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component'
+import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
+import { PodropdownComponent } from './podropdown/podropdown.component'
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.comp
     GroupiddropdownComponent,
     VendordropdownComponent,
     InvoicedropdownComponent,
-    VoucherdropdownComponent
+    VoucherdropdownComponent,
+    PodropdownComponent
   
   ],
   imports: [
