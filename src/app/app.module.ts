@@ -32,7 +32,8 @@ import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.comp
 import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
 import { PodropdownComponent } from './podropdown/podropdown.component';
 import { NctmasterformComponent } from './nctmasterform/nctmasterform.component';
-import { TestobservComponent } from './testobserv/testobserv.component'
+import { TestobservComponent } from './testobserv/testobserv.component';
+import { Observ1Component } from './observ1/observ1.component'
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { TestobservComponent } from './testobserv/testobserv.component'
     VoucherdropdownComponent,
     PodropdownComponent,
     NctmasterformComponent,
-    TestobservComponent
+    TestobservComponent,
+    Observ1Component
   
   ],
   imports: [

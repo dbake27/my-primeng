@@ -15,7 +15,7 @@ export class TabmenuComponent implements OnInit {
     this.items = [
        // {label: 'Projects',  routerLink: ['/projects']},
         {label: 'testobserv',  routerLink: ['/testobserv']},
-       // {label: 'InputGroup',  routerLink: ['/inputgroup']},
+        {label: 'observ1',  routerLink: ['/observ1']},
        // {label: 'GroupIDropdown',  routerLink: ['/groupidropdown']},
        // {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
        // {label: 'InvoiceDropdown',  routerLink: ['/invoicedropdown']},
