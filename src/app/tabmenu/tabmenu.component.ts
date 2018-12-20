@@ -13,14 +13,15 @@ export class TabmenuComponent implements OnInit {
 
   ngOnInit() {
     this.items = [
-        {label: 'Projects',  routerLink: ['/projects']},
-        {label: 'InputGroup',  routerLink: ['/inputgroup']},
-        {label: 'GroupIDropdown',  routerLink: ['/groupidropdown']},
-        {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
-        {label: 'InvoiceDropdown',  routerLink: ['/invoicedropdown']},
-        {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
-        {label: 'PODropdown',  routerLink: ['/podropdown']},
-        {label: 'MasterSearch',  routerLink: ['/mastersearch']},
+       // {label: 'Projects',  routerLink: ['/projects']},
+        {label: 'testobserv',  routerLink: ['/testobserv']},
+       // {label: 'InputGroup',  routerLink: ['/inputgroup']},
+       // {label: 'GroupIDropdown',  routerLink: ['/groupidropdown']},
+       // {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
+       // {label: 'InvoiceDropdown',  routerLink: ['/invoicedropdown']},
+       // {label: 'VendorDropdown',  routerLink: ['/vendordropdown']},
+       // {label: 'PODropdown',  routerLink: ['/podropdown']},
+       // {label: 'MasterSearch',  routerLink: ['/mastersearch']},
         {label: 'PrimeNG',  url: 'http://www.primefaces.org/primeng'},
         {label: 'PrimeDesigner',  url: 'https://www.primefaces.org/designer-ng/#/'}, 
         {label: 'Delete', icon: 'pi pi-fw pi-trash'},

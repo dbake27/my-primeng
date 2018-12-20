@@ -16,6 +16,7 @@ import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.comp
 import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
 import { PodropdownComponent } from './podropdown/podropdown.component';
 import { NctmasterformComponent } from './nctmasterform/nctmasterform.component';
+import { TestobservComponent } from './testobserv/testobserv.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,8 @@ const routes: Routes = [
   { path: "voucherdropdown", component: VoucherdropdownComponent},
   { path: "podropdown", component: PodropdownComponent},
   { path: "nctmasterform", component: NctmasterformComponent},
+  { path: "testobserv", component: TestobservComponent},
+  
   
   
 ];

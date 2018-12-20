@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainmenuComponent } from './mainmenu/mainmenu.component';
+import {HttpClientModule} from '@angular/common/http';
 
 //primeng imports
 
@@ -30,7 +31,8 @@ import { VendordropdownComponent } from './vendordropdown/vendordropdown.compone
 import { InvoicedropdownComponent } from './invoicedropdown/invoicedropdown.component';
 import { VoucherdropdownComponent } from './voucherdropdown/voucherdropdown.component';
 import { PodropdownComponent } from './podropdown/podropdown.component';
-import { NctmasterformComponent } from './nctmasterform/nctmasterform.component'
+import { NctmasterformComponent } from './nctmasterform/nctmasterform.component';
+import { TestobservComponent } from './testobserv/testobserv.component'
 
 
 @NgModule({
@@ -52,7 +54,8 @@ import { NctmasterformComponent } from './nctmasterform/nctmasterform.component'
     InvoicedropdownComponent,
     VoucherdropdownComponent,
     PodropdownComponent,
-    NctmasterformComponent
+    NctmasterformComponent,
+    TestobservComponent
   
   ],
   imports: [
@@ -93,7 +96,8 @@ import { NctmasterformComponent } from './nctmasterform/nctmasterform.component'
     GrowlModule,
     DragDropModule,
     GalleriaModule,
-    TabMenuModule
+    TabMenuModule,
+    HttpClientModule
     
   ],
   providers: [],
