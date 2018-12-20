@@ -13,7 +13,7 @@ export class Observ1Component implements OnInit {
 
   readonly ROOT_URL = 'https://jsonplaceholder.typicode.com';
 
-  posts: Observable<Post[];
+  posts: Observable<Post[]>;
 
 
   constructor(private http: HttpClient) { }
